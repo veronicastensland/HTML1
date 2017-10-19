@@ -2,6 +2,17 @@ body{
     background-color: khaki;
 }
 
+.wrapper{
+  background-color: darkseagreen;
+  padding: 10vh;
+  margin: 2vh auto;
+  text-align: center;
+  width: 70%;
+  margin-bottom: 20vh;
+  margin-top: 15vh;
+  min-width: 50vh;
+}
+
 .hela {
     display: flex;
     justify-content: center;
