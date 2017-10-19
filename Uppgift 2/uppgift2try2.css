@@ -1,0 +1,113 @@
+/* Utan justify-content: center; är är hela menyn och content placerade till vänster. Utan display: flex; fungerar inte justify-content och lådan .dropdown tar upp hela bredden.   */
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+/* Denna gör så att lådan som innehåller alla tre .dropbtn är samma färg. Utan background-color blir det "mellanrum" mellan knapparna */
+.dropdown {
+/*  Dessa behövs typ inte, men gjorde från början??
+    display: inline-block;
+    position: relative;  */
+    background-color: darksalmon;
+}
+
+/* Alla buttons tillhör denna class. Jag har denna class så att alla knappar har en mall de följer. */
+.dropbtn {
+    background-color: darksalmon;
+    font-size: 16px;
+    color: black;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    height: 8vh;
+    width: 20vw;
+}
+
+.bitter {
+    font-family: 'Bitter', monospace;
+}
+
+.indie {
+    font-family: 'Indie Flower', monospace;
+}
+
+.anton {
+    font-family: 'Anton', monospace;
+}
+
+/* .bitter, .indie, och .anton är de personliga classerna för varje button. Detta gör så att jag kan selecta en enskild button. .bitter:hover = när jag hovrar över <button class="dropbtn bitter> så ändras färgen på knappen till salmon. */
+.bitter:hover {
+    background-color: salmon;
+}
+
+.indie:hover {
+    background-color: salmon;
+}
+
+.anton:hover {
+    background-color: salmon;
+}
+
+/* Innehållet som ska visas när man hovrar över varje enskild låda, dock är innehållet automatiskt gömt med display: none; */
+.Bitter-content {
+    display: none;
+    position: absolute;
+    background-color: salmon;
+    min-width: 60.55vw;
+    text-align: center;
+    font-family: 'Bitter', cursive;
+    color: black;
+    font-size: 30px;
+}
+
+.Indie-content {
+    display: none;
+    position: absolute;
+    background-color: salmon;
+    min-width: 60.55vw;
+    text-align: center;
+    font-family: 'Indie', cursive;
+    color: black;
+    font-size: 30px;
+}
+
+.Anton-content {
+    display: none;
+    position: absolute;
+    background-color: salmon;
+    min-width: 60.55vw;
+    text-align: center;
+    font-family: 'Anton', cursive;
+    color: black;
+    font-size: 30px;
+}
+
+/* Detta gör så att när man hovrar över knappen .bitter så ska .bitter-content visas på det här sättet: */
+.bitter:hover + .Bitter-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.indie:hover + .Indie-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.anton:hover + .Anton-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}

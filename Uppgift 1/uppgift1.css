@@ -1,0 +1,58 @@
+body{
+    background-color: khaki;
+}
+
+.hela {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.hela > div:nth-child(1){
+    height: 10vh;
+    width: 10vh;
+    border: 5px solid black;
+    border-radius: 100px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.hela > div:nth-child(2){
+    height: 15vh;
+    width: 5vw;
+    border: 5px solid black;
+    display: inline-block;
+    justify-content: center;
+}
+
+.hela > div:nth-child(3){
+     height: 10vh;
+     width: 10vh;
+     border: 5px solid black;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.utan {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tänder {
+    height: 5vh;
+    width: 30vh;
+    background: black;
+    display: grid;
+    padding: 1px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+    border-radius: 10%;
+}
+
+.tänder > div{
+    height: 3vh;
+    width: 3vh;
+    background: gray;
+    margin: auto;
+}

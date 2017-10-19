@@ -1,0 +1,54 @@
+body {
+    background-color: khaki;
+}
+
+.wrapper {
+    background-color: darkseagreen;
+    height: 80vh;
+    width: 150vh;
+    display: inline-block;
+    margin: 20vh 20vh 20vh 30vh;
+    padding: none;
+    border-radius: 3%;
+    text-align: center;
+}
+
+.eyes  {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    background-color: darkseagreen;
+    border: 2vh solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nose {
+    height: 15vh;
+    width: 8vh;
+    background-color: darkseagreen;
+    border: 2vh solid black;
+    display: inline-block;
+    border-radius: 10%;
+}
+
+.mouth {
+    height: 3vh;
+    width: 25vh;
+    border: 15px solid black;
+    border-radius: 10%;
+    display: inline-block;
+    text-align: center;
+}
+
+.teeth {
+    background-color: black;
+    height: 2vh;
+    width: 2vh;
+    display: inline-block;
+    
+}
+
+
+
+

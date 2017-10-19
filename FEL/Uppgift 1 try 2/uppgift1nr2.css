@@ -1,0 +1,73 @@
+body {
+   background-color: khaki; 
+}
+
+.floatingbox {
+    background-color: darkseagreen;
+    height: 60vh;
+    width: 150vh;
+    display: flex;
+    left: 25vh;
+    top: 20vh;
+    border-radius: 2vh;
+    text-align: center;
+    display: inline-block;
+    position:absolute;
+}
+
+.facebox {
+    background-color: darkseagreen;
+    height: 30vh;
+    width: 40vh;
+    display: flex;
+    top: 15vh;
+    left: 55vh;
+    text-align: center;
+    display: inline-block;
+}
+
+.eyes {
+    border: 2vh solid black;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.nose {
+    border: 2vh solid black;
+    width: 10vh;
+    height: 20vh;
+    border-radius: 2vh;
+    margin: 0px 4px 0px 4px;
+    display: inline-block;
+}
+
+.mouth {
+    border: 2vh solid black;
+    height: 3vh;
+    width: 25vh;
+    border-radius: 1vh;
+    margin-top: 4px;
+}
+
+table {
+    
+}
+
+.teeth {
+    height: 3vh;
+    width: 3vh;
+    background-color: darkseagreen;
+    display: inline-block;
+    border: none;
+    
+}
+
+
+div div div div:nth-child(even) {
+    background-color: black;
+    height: 3vh;
+    width: 3vh;
+}
