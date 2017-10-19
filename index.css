@@ -19,9 +19,6 @@ h1 {
     cursor: pointer;
     margin: 2vh;
     border-radius: 20px;
-}
-
-a {
     font-family: Courier New, monospace;
     color: white;
     font-size: 4vh;
