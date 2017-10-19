@@ -2,6 +2,16 @@ body{
     background-color: khaki;
 }
 
+.wrapper {
+    
+}
+
+.box {
+    background-color: darkseagreen;
+    height: 60vh;
+    width: 80%;
+}
+
 .hela {
     display: flex;
     justify-content: center;
@@ -26,9 +36,9 @@ body{
 }
 
 .hela > div:nth-child(3){
-     height: 10vh;
-     width: 10vh;
-     border: 5px solid black;
+    height: 10vh;
+    width: 10vh;
+    border: 5px solid black;
     border-radius: 100px;
     display: inline-block;
 }

@@ -1,0 +1,33 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+h1 {
+    font-family: Courier New, monospace;
+    color: white;
+    font-size: 20vh;
+    font-weight: bolder;
+    background-color: burlywood;
+}
+
+.btn {
+    border: none;
+    height: 20vh;
+    width: 30vh;
+    background-color: burlywood;
+    cursor: pointer;
+    margin: 2vh;
+    border-radius: 20px;
+}
+
+a {
+    font-family: Courier New, monospace;
+    color: white;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: darkgoldenrod;
+}
